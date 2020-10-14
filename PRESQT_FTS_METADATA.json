@@ -1,0 +1,169 @@
+{
+    "allKeywords": [],
+    "actions": [
+        {
+            "id": "41f5f39d-d0c5-432c-888a-2da0d6ee58ed",
+            "details": "PresQT Transfer from GitLab to GitHub",
+            "actionDateTime": "2020-10-14 18:28:02.201123+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "gitlab",
+            "sourceUsername": "Prometheus-Upload",
+            "destinationTargetName": "github",
+            "destinationUsername": "PresQT-QA-TEST",
+            "keywords": {},
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/Metabolic_Plasticity_of_Accumulibacter_Clades/Accumulibacter_Genome_Assemblies/R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "84c2a5203f18a313a8dd55777f08c445",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "sourceHashes": {
+                            "sha256": "5da604d5a68625ae96674db01f3e9199a1b6f4986b35d9a2c22ba33796a7bcd3"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/Accumulibacter Genome Assemblies/R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "extra": {}
+                    },
+                    {
+                        "destinationPath": "/Metabolic_Plasticity_of_Accumulibacter_Clades/R3R4_Accumulibacter_Raw_Transcriptomic_Counts_Table/R3R4_EBPRcontrol_raw_counts.tsv",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "f1844c2501cba4252e18c129b7391f68",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "R3R4_EBPRcontrol_raw_counts.tsv",
+                        "sourceHashes": {
+                            "sha256": "88c25b484cbe8c7ca091d55c94bcb972fd2d6225f5d2beebecdcf4145800cd01"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/R3R4 Accumulibacter Raw Transcriptomic Counts Table/R3R4_EBPRcontrol_raw_counts.tsv",
+                        "extra": {}
+                    },
+                    {
+                        "destinationPath": "/Metabolic_Plasticity_of_Accumulibacter_Clades/R3R4_TPM_Normalized_Transcriptomic_Count_Table/R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "17483f47231ab9300867b82069d5e963",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "sourceHashes": {
+                            "sha256": "d211f660a113ba95cbc7a47476f263c4d07f5f5843d1c90c2801ae5ca3c988de"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/R3R4 TPM Normalized Transcriptomic Count Table/R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "extra": {}
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            },
+            "extra_metadata": {
+                "title": "Metabolic Plasticity of Accumulibacter Clades",
+                "creators": [
+                    {
+                        "first_name": "Team",
+                        "last_name": "Prometheus",
+                        "ORCID": null
+                    }
+                ],
+                "publication_date": "2020-10-14T18:14:57.255Z",
+                "description": null,
+                "keywords": [],
+                "license": null,
+                "related_identifiers": [],
+                "references": null,
+                "notes": null
+            }
+        },
+        {
+            "id": "c3b6c8e3-aea0-421c-9960-bd0d7ea009af",
+            "details": "PresQT Transfer from FigShare to GitLab",
+            "actionDateTime": "2020-10-14 18:14:55.025236+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "figshare",
+            "sourceUsername": "workwell-crc@nd.edu",
+            "destinationTargetName": "gitlab",
+            "destinationUsername": "Prometheus-Upload",
+            "keywords": {},
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "Metabolic Plasticity of Accumulibacter Clades/Accumulibacter Genome Assemblies/R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "destinationHashes": {
+                            "sha256": "5da604d5a68625ae96674db01f3e9199a1b6f4986b35d9a2c22ba33796a7bcd3"
+                        },
+                        "failedFixityInfo": [],
+                        "title": "R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "sourceHashes": {
+                            "md5": "84c2a5203f18a313a8dd55777f08c445"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/Accumulibacter Genome Assemblies/R3R4_Accumulibacter_Assemblies.tar.gz",
+                        "extra": {
+                            "size": 53835241
+                        }
+                    },
+                    {
+                        "destinationPath": "Metabolic Plasticity of Accumulibacter Clades/R3R4 TPM Normalized Transcriptomic Count Table/R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "destinationHashes": {
+                            "sha256": "d211f660a113ba95cbc7a47476f263c4d07f5f5843d1c90c2801ae5ca3c988de"
+                        },
+                        "failedFixityInfo": [],
+                        "title": "R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "sourceHashes": {
+                            "md5": "17483f47231ab9300867b82069d5e963"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/R3R4 TPM Normalized Transcriptomic Count Table/R3R4_EBPRcontrol_tpm_counts.tsv",
+                        "extra": {
+                            "size": 2271408
+                        }
+                    },
+                    {
+                        "destinationPath": "Metabolic Plasticity of Accumulibacter Clades/R3R4 Accumulibacter Raw Transcriptomic Counts Table/R3R4_EBPRcontrol_raw_counts.tsv",
+                        "destinationHashes": {
+                            "sha256": "88c25b484cbe8c7ca091d55c94bcb972fd2d6225f5d2beebecdcf4145800cd01"
+                        },
+                        "failedFixityInfo": [],
+                        "title": "R3R4_EBPRcontrol_raw_counts.tsv",
+                        "sourceHashes": {
+                            "md5": "f1844c2501cba4252e18c129b7391f68"
+                        },
+                        "sourcePath": "/Metabolic Plasticity of Accumulibacter Clades/R3R4 Accumulibacter Raw Transcriptomic Counts Table/R3R4_EBPRcontrol_raw_counts.tsv",
+                        "extra": {
+                            "size": 947548
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            },
+            "extra_metadata": {
+                "title": "Metabolic Plasticity of Accumulibacter Clades",
+                "creators": [
+                    {
+                        "first_name": "Elizabeth",
+                        "last_name": "McDaniel",
+                        "ORCID": null
+                    }
+                ],
+                "publication_date": "2020-10-12T20:47:44Z",
+                "description": "Data and supplementary files for the manuscript: \"Metabolic plasticity of co-occurring Accumulibacter clades revealed through genome-resolved metatranscriptomics.\"",
+                "keywords": [],
+                "license": null,
+                "related_identifiers": [],
+                "references": null,
+                "notes": null
+            }
+        }
+    ]
+}
